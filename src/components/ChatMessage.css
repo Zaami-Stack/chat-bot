@@ -1,25 +1,21 @@
-.chat-message-profile {
-    width: 45px;
-    height: 45px;
+.sender-picture {
+    height: 50px;
+
 }
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
+.chat-message-user {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    gap: 10px;
+
 }
-.chat-message-content {
-    background-color: rgb(238, 238, 238);
-    padding: 15px 20px;
-    border-radius: 10px;
-    max-width: 300px;
-    margin-top: 0;
-    margin-bottom: 0;
-    overflow-wrap: break-word;
-}
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+.chat-message-robot {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+
+    
 }
