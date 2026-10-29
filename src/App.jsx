@@ -1,11 +1,12 @@
 import './App.css'
-import ChatMessage from './components/ChatMessage'
+import ChatInput from './components/ChatInput'
 function App() {
 
 
   return (
-    <>
-    </>
+    <div className='app'>
+      <ChatInput/>
+    </div>
   )
 }
 
